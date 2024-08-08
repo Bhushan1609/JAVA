@@ -9,7 +9,7 @@ Welcome to my Java learning repository! This repository contains my notes, code 
 #1.Map in Java
 ```java
 /*Directly Adding Values in Mapp*/
-mappName.compute( val , (k,v) -> (v==numm) ? 1 : v+1);
+mappName.compute( val , (k,v) -> (v==null) ? 1 : v+1);
 /*Traversing in  Mapp*/
 for(Map.Entry<Integer,Integer>iterator : mappName.entrySet() ){
     iterator.getKey();
