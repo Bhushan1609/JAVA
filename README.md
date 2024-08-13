@@ -43,20 +43,31 @@ import java.util.Queue;
 import java.util.LinkedList;
 
 Queue<Integer> queue = new LinkedList<>();
+
+queue.add(element);
+
 int size = queue.size();
 System.out.println("Queue size: " + size);
+
 Integer frontElement = queue.peek();
 System.out.println("Front element: " + frontElement);
+
 Integer removedElement = queue.poll();
 System.out.println("Removed element: " + removedElement);
 
 
 import java.util.PriorityQueue;
+
 PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+
+priorityQueue.add(element);
+
 int size = priorityQueue.size();
 System.out.println("PriorityQueue size: " + size);
+
 Integer frontElement = priorityQueue.peek();
 System.out.println("Front element: " + frontElement);
+
 Integer removedElement = priorityQueue.poll();
 System.out.println("Removed element: " + removedElement);
 ```
