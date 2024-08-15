@@ -8,6 +8,7 @@ I hope you find it useful, whether you are also learning Java or just looking fo
 2.Create List like vector with Values<br>
 3.Reference passing Variable<br>
 4.Queue And Priority Queue<br>
+5.Pair in Java
 
 
 # 1.Map in Java
@@ -70,4 +71,41 @@ System.out.println("Front element: " + frontElement);
 
 Integer removedElement = priorityQueue.poll();
 System.out.println("Removed element: " + removedElement);
+```
+
+# 5.Pair in Java
+Declararion 
+pair<Integer , String> a = new pair<Integer ,String>(16 , "Bhushan");
+
+System.out.println(a.fi());
+
+System.out.println(a.se());
+```java
+Code
+Java
+public class pair<T, U> {
+    private T first;
+    private U second;
+
+    public pair(T first, U second) {
+        this.first = first;
+        this.second = second;
+    }
+
+    public T fi() {
+        return first;
+    }
+
+    public U se() {
+        return second;
+    }
+
+    public void setFirst(T first) {
+        this.first = first;
+    }
+
+    public void setSecond(U second) {
+        this.second = second;
+    }
+}
 ```
