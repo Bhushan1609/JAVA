@@ -80,9 +80,8 @@ pair<Integer , String> a = new pair<Integer ,String>(16 , "Bhushan");
 System.out.println(a.fi());
 
 System.out.println(a.se());
+
 ```java
-Code
-Java
 public class pair<T, U> {
     private T first;
     private U second;
