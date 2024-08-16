@@ -8,7 +8,9 @@ I hope you find it useful, whether you are also learning Java or just looking fo
 2.Create List like vector with Values<br>
 3.Reference passing Variable<br>
 4.Queue And Priority Queue<br>
-5.Pair in Java
+5.Pair in Java<br>
+6.Remove Last Element in List<br>
+7.Add list in 2d list
 
 
 # 1.Map in Java
@@ -107,4 +109,18 @@ public class pair<T, U> {
         this.second = second;
     }
 }
+```
+
+# 6.Remove Last Element in List
+```java
+
+if(!list.isEmpty()) list.remove(list.size() - 1)
+
+```
+
+# 7.Add list in 2d list
+```java
+
+list2d.add(new List<>(list1d));
+
 ```
