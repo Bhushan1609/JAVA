@@ -11,6 +11,7 @@ I hope you find it useful, whether you are also learning Java or just looking fo
 5.Pair in Java<br> 
 6.Remove Last Element in List<br>
 7.Add list in 2d list
+8.HashSet in Java
 
 
 # 1.Map in Java
@@ -123,4 +124,18 @@ if(!list.isEmpty()) list.remove(list.size() - 1)
 
 list2d.add(new List<>(list1d));
 
+```
+
+
+# 8.HashSet in Java
+```
+import java.util.*;
+public class Java{
+    public static void main(String args[]){
+        HashSet<Integer>st=new HashSet<>();//Declaration
+        st.add(number);//added in Set
+        for (Integer i : st) {//Iterating Over Set
+        }
+    }
+}
 ```
