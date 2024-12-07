@@ -10,9 +10,9 @@ I hope you find it useful, whether you are also learning Java or just looking fo
 4.Queue And Priority Queue<br>
 5.Pair in Java<br> 
 6.Remove Last Element in List<br>
-7.Add list in 2d list
-8.HashSet in Java
-9.Declare n size Vector and allocate the Value
+7.Add list in 2d list<br>
+8.HashSet in Java<br>
+9.Declare n size Vector and allocate the Value<br>
 
 
 # 1.Map in Java
