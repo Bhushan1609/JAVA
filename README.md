@@ -12,6 +12,7 @@ I hope you find it useful, whether you are also learning Java or just looking fo
 6.Remove Last Element in List<br>
 7.Add list in 2d list
 8.HashSet in Java
+9.Declare n size Vector and allocate the Value
 
 
 # 1.Map in Java
@@ -138,4 +139,9 @@ public class Java{
         }
     }
 }
+```
+
+# 9.Declare n size Vector and allocate the Value
+```
+Vector<Integer> hash = new Vector<>(Collections.nCopies(n + 1, 0));
 ```
